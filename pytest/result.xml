@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="6" time="0.152" timestamp="2026-06-18T16:19:30.549278+05:30" hostname="IBM-5BXSR24"><testcase classname="test_calc" name="test_addition" time="0.001" /><testcase classname="test_calc" name="test_subtraction" time="0.000" /><testcase classname="test_calc" name="test_multiplication" time="0.001"><failure message="assert (3 * 4) == 13">def test_multiplication():
+&gt;       assert 3 * 4 == 13
+E       assert (3 * 4) == 13
+
+test_calc.py:10: AssertionError</failure></testcase><testcase classname="test_calc" name="test_division" time="0.001" /><testcase classname="test_calc" name="test_wrong" time="0.001" /><testcase classname="test_calc" name="test_bodmas" time="0.002" /></testsuite></testsuites>
